@@ -39,3 +39,11 @@ def step_size(mu_t):
     
     return s 
 
+def updating_coordinates(x,y,z,s,mu_x,mu_y,mu_z):
+    
+    """Açıklama"""
+    x += mu_x
+    y += mu_y
+    z += mu_z
+    
+    return x,y,z
